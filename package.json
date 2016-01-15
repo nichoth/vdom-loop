@@ -1,0 +1,31 @@
+{
+  "name": "vdom-loop",
+  "version": "0.0.0",
+  "description": "Main-loop boilerplate for virtual-dom",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "git push && git push --tags",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nichoth/vdom-loop.git"
+  },
+  "keywords": [
+    "vdom",
+    "virtual-dom",
+    "mercury",
+    "loop",
+    "main-loop"
+  ],
+  "author": "Nick Thomas <nichoth@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nichoth/vdom-loop/issues"
+  },
+  "homepage": "https://github.com/nichoth/vdom-loop#readme",
+  "dependencies": {
+    "main-loop": "^3.2.0",
+    "virtual-dom": "^2.1.1"
+  }
+}
